@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/ankitsangwan1999/Project-INSIGHT.git/static/js/main.1cb4b29e.chunk.js",
+    "main.js.map": "/ankitsangwan1999/Project-INSIGHT.git/static/js/main.1cb4b29e.chunk.js.map",
+    "runtime-main.js": "/ankitsangwan1999/Project-INSIGHT.git/static/js/runtime-main.2cf09432.js",
+    "runtime-main.js.map": "/ankitsangwan1999/Project-INSIGHT.git/static/js/runtime-main.2cf09432.js.map",
+    "static/js/2.1ce3a5fb.chunk.js": "/ankitsangwan1999/Project-INSIGHT.git/static/js/2.1ce3a5fb.chunk.js",
+    "static/js/2.1ce3a5fb.chunk.js.map": "/ankitsangwan1999/Project-INSIGHT.git/static/js/2.1ce3a5fb.chunk.js.map",
+    "index.html": "/ankitsangwan1999/Project-INSIGHT.git/index.html",
+    "precache-manifest.5fee4a7e4280a0f0d263081b79a34b08.js": "/ankitsangwan1999/Project-INSIGHT.git/precache-manifest.5fee4a7e4280a0f0d263081b79a34b08.js",
+    "service-worker.js": "/ankitsangwan1999/Project-INSIGHT.git/service-worker.js",
+    "static/js/2.1ce3a5fb.chunk.js.LICENSE.txt": "/ankitsangwan1999/Project-INSIGHT.git/static/js/2.1ce3a5fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cf09432.js",
+    "static/js/2.1ce3a5fb.chunk.js",
+    "static/js/main.1cb4b29e.chunk.js"
+  ]
+}
