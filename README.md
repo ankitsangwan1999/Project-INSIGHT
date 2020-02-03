@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project-INSIGHT
+A Webapp built using ReactJS library to Play Videos Online using Youtube API.
 
 ## Available Scripts
 

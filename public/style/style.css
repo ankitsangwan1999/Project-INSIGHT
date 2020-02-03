@@ -1,0 +1,122 @@
+.details{
+    overflow: auto;
+    max-height: 100px;
+    font-size: 1.5rem;
+    font-family: Sans-Serif;
+    font-weight: 900 ;
+}
+#desc{
+     font-size: 1.2rem;
+    font-family: Sans-Serif;
+    font-weight: 600 ;
+}
+.parent-div{
+   margin-top: 15px;
+}
+.logo{
+    text-align: center;
+    background-color: black;
+}
+.logo img {
+    max-width: 100%;
+}
+
+.loading {
+    padding-top: 25%;
+    font-size: 2vw;
+    margin: auto;
+    font-family: Sans-Serif;
+    color: midnightblue;
+}
+
+.video-item img{
+    max-width: 64px;
+}
+
+.video-detail .details{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+.list-group-item{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.list-group-item:hover{
+    background-color: #eee;
+}
+
+.search-bar{
+    width: 90%;
+    /*text-align: center;*/
+    margin:5px auto;
+    height: 36px;
+    background-color: #353b48;
+    border-radius: 30px;
+    /*padding: 10px;*/
+}
+
+.search-input{
+    vertical-align:middle;
+    color: white;
+    font-size: 1.5rem;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 70%;
+    caret-color:transparent;
+    /*line-height: 40px;*/
+}
+
+/*.search-bar:hover > .search-input{*/
+/*    padding: 0 10px;*/
+/*    width: 80%;*/
+/*    caret-color:red;*/
+/*}*/
+
+.search-bar img{
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -2px;
+    margin-right: 5px;
+    /*float: right;*/
+    /*right: 50px;*/
+    /*height: 1.8vw;*/
+    /*width: 1.8vw;*/
+}
+
+.footer {
+    /*margin-bottom: 100px;*/
+    /*margin-top:25px;*/
+    padding: 25px;
+    bottom: 0;
+    left: 0;
+    /*position: absolute;*/
+    color: #0001F0;
+    /*font-size: larger;*/
+    text-align: center;
+    /*text-overflow: ellipsis;*/
+    background-color: #e2e2e2;
+    /*margin-bottom: 0 ;*/
+    /*margin-bottom:100px ;*/
+}
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
