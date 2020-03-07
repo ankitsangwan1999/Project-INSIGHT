@@ -24,4 +24,3 @@ const VideoListItem = (props) =>{
     );
 };
 export default VideoListItem;
-

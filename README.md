@@ -1,4 +1,4 @@
-#An Online Video Player built on React using Youtube Search API.#
+#An Online Video Player built on ReactJS library using Youtube Search Youtube DATA API(v3).#
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -63,6 +63,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 ### Deployment
 
+<<<<<<< HEAD
+=======
+### `npm run deploy`
+
+>>>>>>> fc1b4557c79a8c3ee4591c3f2a1255594270e455
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify

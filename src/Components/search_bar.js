@@ -16,7 +16,9 @@ import React, { Component } from 'react'; // As whenever we change JSX into the 
 //         return <input />;
 //     }
 // }
+
 // import '../style/Logo/search.svg'
+
 // Cleaning up the Component made above using ES6 syntax
 class SearchBar extends Component { // inheriting the React.Component
 
@@ -30,7 +32,7 @@ class SearchBar extends Component { // inheriting the React.Component
     render(){ // a must function inside a class component
         // console.log(this.state.term);
         return (
-            <div>
+                <div>
                     <div className="search-bar">
                          <a><img style={{"vertical-align":"middle"}} src="/style/Logo/search.svg" ></img></a>
                         <input
