@@ -16,7 +16,7 @@ import './style.css'
 // JSX - can't be interpret by the browser.
 // So, as our project is having webpack and bable installed. they will be used to interpret the JSX and ES6 to the vannila JS which is understood by the browser. 
 
-const API_KEY = 'AIzaSyATOoQ81aSx_tLk3OLYvhB3Hd7dP5CJWhc';
+const API_KEY = 'AIzaSyCt-gfvzQj2MglECoC13ETcXElCtMGCo1k';
 
 
 
@@ -54,7 +54,7 @@ class App extends Component{ // App(a component) is a const => we cannot reassig
 			<div>
 				<div className="parent-div">
 					<div className="logo">
-						<img src="/style/Logo/Logo_1.jpg" />
+						<img src="Project-INSIGHT/style/Logo/Logo_1.jpg" />
 					</div>
 					<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
 					<VideoDetail video={this.state.selectedVideo}/>

@@ -34,7 +34,7 @@ class SearchBar extends Component { // inheriting the React.Component
         return (
                 <div>
                     <div className="search-bar">
-                         <a><img style={{"vertical-align":"middle"}} src="/style/Logo/search.svg" ></img></a>
+                         <a><img style={{"vertical-align":"middle"}} src="Project-INSIGHT/style/Logo/search.svg" ></img></a>
                         <input
                             className="search-input"
                             type="text"
