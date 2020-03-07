@@ -16,7 +16,7 @@ import './style.css'
 // JSX - can't be interpret by the browser.
 // So, as our project is having webpack and bable installed. they will be used to interpret the JSX and ES6 to the vannila JS which is understood by the browser. 
 
-const API_KEY = 'AIzaSyC0CFmT3iRcG-JQTxQxcexhJR6w32tDT_A';
+const API_KEY = 'AIzaSyATOoQ81aSx_tLk3OLYvhB3Hd7dP5CJWhc';
 
 
 
