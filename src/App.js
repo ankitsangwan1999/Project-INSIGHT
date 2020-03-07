@@ -54,7 +54,7 @@ class App extends Component{ // App(a component) is a const => we cannot reassig
 			<div>
 				<div className="parent-div">
 					<div className="logo">
-						<img src="/style/Logo/Logo_1.jpg" />
+						<img src="style/Logo/Logo_1.jpg" />
 					</div>
 					<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
 					<VideoDetail video={this.state.selectedVideo}/>
