@@ -1,4 +1,5 @@
 # An Online Video Player built on ReactJS library using Youtube DATA API(v3). #
+[![HitCount](http://hits.dwyl.com/ankitsangwan1999/Project-INSIGHT.svg)](http://hits.dwyl.com/ankitsangwan1999/Project-INSIGHT)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
