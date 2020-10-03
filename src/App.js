@@ -46,8 +46,6 @@ class App extends Component{ // App(a component) is a const => we cannot reassig
 	}
 
 	render() {
-		// console.log("HEllo");
-
 		const videoSearch = _.debounce((term) => {this.videoSearch(term)}, 1000);
 
 		return(
@@ -71,18 +69,7 @@ class App extends Component{ // App(a component) is a const => we cannot reassig
 }
 
 // IMP: SearchBar here means an instance of Class SearchBar imported.
-// IMP:-<SearchBar />   // Means we are Rendering the Search Component, Rendering the SearchBar Component.
+// IMP:-<SearchBar /> // Means we are Rendering the Search Component, Rendering the SearchBar Component.
 
-export default App;
+export default App; 
 // Take this generated HTML and add it to the DOM.
-
-
-
-
-
-
-
-
-
-
-		//			<Desc video={this.state.selectedVideo} />

@@ -23,14 +23,13 @@ import React, { Component } from 'react'; // As whenever we change JSX into the 
 class SearchBar extends Component { // inheriting the React.Component
 
     constructor(props){
-               // console.log("lala");
         super(props); // super is used to call a Function of the Parent Class(here it is Component)
         this.state = { term: ''};
     }
 
 
     render(){ // a must function inside a class component
-        // console.log(this.state.term);
+              // console.log(this.state.term);
         return (
                 <div>
                     <div className="search-bar">
@@ -44,12 +43,13 @@ class SearchBar extends Component { // inheriting the React.Component
                         />
                     </div>
                 </div>
-        );// returning the JSX. This JSX is being Rendered to the DOM.
+        );
+        // returning the JSX. This JSX is being Rendered to the DOM.
         // value={this.state.term} make the html element controlled
     }
 
     onInputChange(term){
-        // console.log(event_obj.target.value);
+        // console.log(event_obj.target.value); // <- For Debugging Purpose
         this.setState({term: term}); // Setting the new State of our Component.
         this.props.onSearchTermChange(term);
     }
