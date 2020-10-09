@@ -15,7 +15,3 @@ const VideoList = (props) => {
     );
 }
 export default VideoList;
-
-
-// onVideoSelect = {props.onVideoSelect}
-            // key={video.etag} 

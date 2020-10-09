@@ -18,4 +18,4 @@ const Desc = (props) =>{
 	    </div>
     );
 }
-export default Desc;
+export default Desc; // allowing Desc Functional Component to be Rendered by other files.
